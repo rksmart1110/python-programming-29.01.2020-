@@ -1,0 +1,21 @@
+import random
+a=int(input("enter a number"))
+b=random.randrange(0,10)
+if a==b:
+      print('winner')
+else:
+      print('better luck next time')
+
+'''
+sample input 
+
+enter a number2
+better luck next time
+>>> 
+enter a number5
+better luck next time
+
+enter a number3
+winner
+
+'''
